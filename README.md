@@ -6,6 +6,6 @@ meme_dict = {
 parola = input("Scrivi una parola che non capisci (usa solo lettere maiuscole!): ")
 
 if parola in meme_dict.keys():
-    print(parola.value())
+    print(meme_dict[parola])
 else:
     print("parola non trovata")
